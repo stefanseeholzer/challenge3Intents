@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C2D4DF"
+    tools:context=".ActivityChecker">
+
+    <TextView
+        android:id="@+id/textResults"
+        android:layout_width="410dp"
+        android:layout_height="580dp"
+        android:layout_marginTop="16dp"
+        android:background="#A2C1D5"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="117dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="36dp"
+        android:text="Return"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textResults" />
+</androidx.constraintlayout.widget.ConstraintLayout>
